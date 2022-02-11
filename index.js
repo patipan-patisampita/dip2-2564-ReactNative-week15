@@ -9,5 +9,7 @@ import Greeting from './components/Greeting';
 import CounterState from './components/CounterState';
 import ColumnItems from './components/ColumnItems';
 import RowsItems from './components/RowsItems';
+import AlertComponent from './components/AlertComponent';
+import TextInputDemo from './components/TextInputDemo';
 
-AppRegistry.registerComponent(appName, () => RowsItems);
+AppRegistry.registerComponent(appName, () => TextInputDemo);
