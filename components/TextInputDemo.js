@@ -40,7 +40,7 @@ export default TextInputDemo
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 50,
+        marginTop: 20,
         marginLeft: 20,
         marginRight: 20,
     },
@@ -48,8 +48,15 @@ const styles = StyleSheet.create({
         marginBottom: 15,
     },
     TextInput: {
-        height: 10,
-        color: "black"
+        height: 36, 
+        color: 'black', 
+        backgroundColor: '#fff',
+        borderWidth: 1, 
+        borderColor: '#aaa',
+        marginTop: 5, 
+        paddingTop: 3, 
+        paddingBottom: 3,
+        paddingLeft:20,
+        borderRadius:18
     }
-
 })
