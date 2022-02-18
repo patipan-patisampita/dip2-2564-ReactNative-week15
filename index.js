@@ -14,4 +14,4 @@ import TextInputDemo from './components/TextInputDemo';
 import SwitchDemo from './components/SwitchDemo';
 import ImageDemo from './components/ImageDemo';
 
-AppRegistry.registerComponent(appName, () => ImageDemo);
+AppRegistry.registerComponent(appName, () => App);
