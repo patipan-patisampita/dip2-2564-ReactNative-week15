@@ -3,8 +3,10 @@ import React, { useState } from 'react'
 
 const SwitchDemo = () => {
     const [switchBluetooth, setSwitchBluetooth] = useState(false)
+    const [switchWiFi,setSwitchWiFi] = useState(false)
     return (
         <View style={styles.container}>
+
             <View style={styles.items}>
                 <Text style={styles.text}>Bluetooth</Text>
                 <Switch
@@ -13,6 +15,17 @@ const SwitchDemo = () => {
                 />
             </View>
             <Text>Bluetooth: {JSON.stringify(switchBluetooth? 'ON':'OFF')}</Text>
+
+
+            <View style={styles.items}>
+                <Text style={styles.text}>WiFi</Text>
+                <Switch
+                    value={switchWiFi}
+                    onValueChange={setSwitchWiFi}
+                />
+            </View>
+            <Text>WiFi: {JSON.stringify(switchWiFi? 'ON':'OFF')}</Text>
+
         </View>
     )
 }
