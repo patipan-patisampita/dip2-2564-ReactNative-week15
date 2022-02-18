@@ -12,5 +12,6 @@ import RowsItems from './components/RowsItems';
 import AlertComponent from './components/AlertComponent';
 import TextInputDemo from './components/TextInputDemo';
 import SwitchDemo from './components/SwitchDemo';
+import ImageDemo from './components/ImageDemo';
 
-AppRegistry.registerComponent(appName, () => SwitchDemo);
+AppRegistry.registerComponent(appName, () => ImageDemo);
